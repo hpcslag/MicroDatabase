@@ -1,5 +1,4 @@
 var fs = require('fs');
-var dbpath = require('./lib/DatabaseInfo');
+var md = require('./lib');
 
-console.log(dbpath.getPath);
-console.log(dbpath.getDataStruct);
+md.init('./Database','Test');
