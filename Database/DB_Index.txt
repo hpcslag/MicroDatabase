@@ -1,0 +1,26 @@
+{
+	DBName:{
+		Collection:{
+			CollectionName: {
+				path: TO/FILE/PATH,
+				description: xxx
+			},
+			CollectionName: {
+				path: TO/FILE/PATH,
+				description: xxx
+			}
+		}
+	},
+	DBName:{
+		Collections:{
+			CollectionName: {
+				path: TO/FILE/PATH,
+				description: xxx
+			},
+			CollectionName: {
+				path: TO/FILE/PATH,
+				description: xxx
+			}
+		}
+	}
+}
