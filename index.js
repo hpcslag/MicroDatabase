@@ -1,4 +1,7 @@
 var fs = require('fs');
 var md = require('./lib');
 
-md.init('./Database','Test');
+var ms = md('./Database','Test','Users');
+ms.init();
+
+//md.init('./Database','Test');
