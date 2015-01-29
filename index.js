@@ -3,5 +3,4 @@ var md = require('./lib');
 
 var ms = md('./Database','Test','Users');
 ms.init();
-
-//md.init('./Database','Test');
+ms.colle_init();
