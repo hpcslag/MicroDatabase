@@ -10,7 +10,7 @@ d2.insert([{"test":'testtoo'}]);
 ms.insert({'name':'tessst'});
 d2.insert([{"test":'testtoo'}]);*/
 
-ms.find([],function(row){
+ms.find([{money:1700}],function(row){
 	console.log(row);
 });
 console.timeEnd('timer');
