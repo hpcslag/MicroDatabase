@@ -1,7 +1,7 @@
 var fs = require('fs');
 var md = require('./lib');
 
-console.time('timer');
+
 var ms = md('./Database','Test','Users');
 var d2 = md('./Database','Test2','Users');
 
@@ -9,8 +9,11 @@ var d2 = md('./Database','Test2','Users');
 d2.insert([{"test":'testtoo'}]);
 ms.insert({'name':'tessst'});
 d2.insert([{"test":'testtoo'}]);*/
-
-ms.find('test',function(row){
+console.time('timer');
+/*ms.find('test',function(row){
 	console.log(row);
+});*/
+ms.findOne({age:16},function(match){
+	console.log(match);
 });
 console.timeEnd('timer');
