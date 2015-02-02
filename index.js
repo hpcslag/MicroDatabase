@@ -16,5 +16,6 @@ console.time('timer');
 /*ms.findOne({age:16},function(match){
 	console.log(match);
 });*/
-ms.update({age:16},{age:18});
+//ms.update({age:16},{age:18});
+//ms.remove({age:16});
 console.timeEnd('timer');
