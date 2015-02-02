@@ -85,12 +85,19 @@ insert {name:'Xiaomin',seat:'1-2'} in Student Table
 ```
 
 All Shell:
+
 `version`
+
 `help`
+
 `init [ path | 'here' ]`
+
 `setpath [ topath | 'here' ]`
+
 `new [ DB | Colle ] [name]`
+
 `'VariableName' [use] 'CollectionName' [on] 'DBName'`
+
 `'VariableName'.[api]`
 
 #TCP Remote Feature
