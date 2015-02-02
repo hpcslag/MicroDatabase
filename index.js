@@ -10,10 +10,11 @@ d2.insert([{"test":'testtoo'}]);
 ms.insert({'name':'tessst'});
 d2.insert([{"test":'testtoo'}]);*/
 console.time('timer');
-/*ms.find('test',function(row){
+/*ms.find([{age:16}],function(row){
 	console.log(row);
 });*/
-ms.findOne({age:16},function(match){
+/*ms.findOne({age:16},function(match){
 	console.log(match);
-});
+});*/
+ms.update({age:16},{age:18});
 console.timeEnd('timer');
