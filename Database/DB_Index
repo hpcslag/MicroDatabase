@@ -1,11 +1,11 @@
 {
 	"DBName":{
-		"Collection":{
-			"CollectionName": {
+		"Collections":{
+			"CollectionName1": {
 				"path": "TO/FILE/PATH",
 				"description": "xxx"
 			},
-			"CollectionName": {
+			"CollectionName2": {
 				"path": "TO/FILE/PATH",
 				"description": "xxx"
 			}
@@ -13,11 +13,11 @@
 	},
 	"DBNames":{
 		"Collections":{
-			"CollectionName": {
+			"CollectionName1": {
 				"path": "TO/FILE/PATH",
 				"description": "xxx"
 			},
-			"CollectionName": {
+			"CollectionName2": {
 				"path": "TO/FILE/PATH",
 				"description": "xxx"
 			}
