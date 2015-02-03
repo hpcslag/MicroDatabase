@@ -1,26 +1,30 @@
-{
-	"DBName":{
-		"Collections":{
-			"CollectionName1": {
-				"path": "TO/FILE/PATH",
-				"description": "xxx"
-			},
-			"CollectionName2": {
-				"path": "TO/FILE/PATH",
-				"description": "xxx"
+[
+	{
+		"DBName":{
+			"Collections":{
+				"CollectionName1": {
+					"path": "TO/FILE/PATH",
+					"description": "xxx"
+				},
+				"CollectionName2": {
+					"path": "TO/FILE/PATH",
+					"description": "xxx"
+				}
 			}
 		}
 	},
-	"DBNames":{
-		"Collections":{
-			"CollectionName1": {
-				"path": "TO/FILE/PATH",
-				"description": "xxx"
-			},
-			"CollectionName2": {
-				"path": "TO/FILE/PATH",
-				"description": "xxx"
+	{
+		"DBNames":{
+			"Collections":{
+				"CollectionName1": {
+					"path": "TO/FILE/PATH",
+					"description": "xxx"
+				},
+				"CollectionName2": {
+					"path": "TO/FILE/PATH",
+					"description": "xxx"
+				}
 			}
 		}
 	}
-}
+]
