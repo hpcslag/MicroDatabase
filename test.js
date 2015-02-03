@@ -2,7 +2,7 @@ var test = require('./lib/DatabaseInfo.js');
 //console.log(test.getDataStruct)
 
 //test.setPath('C:\\Users\\MacTaylors\\Desktop\\Microdatabase\\Database');
-test.setINDEX({name:'test'});
+test.removeColle("Test",'Users');
 //console.log(test.findDB('DBName','CollectionName1'));
 
 
