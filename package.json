@@ -1,0 +1,29 @@
+{
+  "name": "MicroDatabase",
+  "description": "A clean like MongoDB Database Control System",
+  "version": "0.0.0",
+  "preferGlobal": "true",
+  "bin": {
+      "MicroDatabase": "./bin/microdatabase"
+   },
+   "main":"./index.js",
+  "author": "MacTaylor <cslag@hotmail.com.tw>",
+  "keywords": [
+    "database",
+    "static",
+    "files manager"
+  ],
+  "dependencies": {
+   "colors":">=1.0.3"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hpcslag/MicroDatabase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hpcslag/MicroDatabase/issues"
+  }
+}
