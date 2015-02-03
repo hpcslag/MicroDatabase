@@ -3,6 +3,7 @@
 This project is clone StaticDB, upgrade to Version 2.0
 
 	npm install microdatabase -g
+	MicroDatabase default
 
 # Usage
 !worning: The Database path must set before you use, Enter in Command line: "MicroDatabase" and enter "setpath [path]",then enter: "init", or not your path will be set in default directory(npm)
