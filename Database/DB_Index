@@ -1,1 +1,6 @@
-{"DBName":["CollectionName"],"Test":["Users"]}
+{
+	"DBName":[
+		"CollectionName",
+		"CollectionName1"
+	]
+}
