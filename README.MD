@@ -72,16 +72,18 @@ ok, now change database path in here C:\MDB\...
 > setpath C:\users\CODEMAN\Desktop\MDB
 ok, now change database path in C:\users\CODEMAN\Desktop\MDB\...
 
-> new DB ClassList
-Create 'ClassList' DB here, C:\XXX\ClassList\...
+Exit CLI Mode!
+Enter Database Name: > Test
+Is Test your select database name? (yes/no) y
+Your select Test, Enter Collection Name: Studnet
+Is Users your select collection name? (yes/no) y
+Exit CLI Mode!
 
-> new Colle Student
-Create 'Student' Table in 'ClassList' DB.
 
-> Class use Student on ClassList
-Class is variable,now can be use!
-
-> Class.insert({name:'Xiaomin',seat:'1-2'});
+Press Ctrl+C exit out default mode or enter ".exit"
+variable 'Class' now is control DBname: Test,Collection: Student
+$> Class.find()
+$> Class.insert({name:'Xiaomin',seat:'1-2'});
 insert {name:'Xiaomin',seat:'1-2'} in Student Table 
 ```
 
@@ -95,11 +97,7 @@ All Shell:
 
 `setpath [ topath | 'here' ]`
 
-`new [ DB | Colle ] [name]`
-
-`'VariableName' [use] 'CollectionName' [on] 'DBName'`
-
-`'VariableName'.[api]`
+`class`
 
 #TCP Remote Feature
 ####open online MicroDatabase

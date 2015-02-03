@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-console.log("Hello World");
+var db_info = require('../lib/DatabaseInfo.js'),
+	CLI = require('../lib/CLI.js');
