@@ -1,6 +1,6 @@
-#Micro Database
+# Micro Database
 
-This project is clone StaticDB, upgrade to Version 2.0
+This project is update from StaticDB, upgrade to Version 2.0
 
 	npm install microdatabase -g
 	MicroDatabase default
@@ -99,13 +99,13 @@ All Shell:
 
 `class`
 
-#TCP Remote Feature
-####open online MicroDatabase
+# TCP Remote Feature
+#### open online MicroDatabase
 ```
 MicroDatabase online
 //online on your ip:3526port
 ``` 
-####other third party software client
+#### other third party software client
 ```
 send SHA-1 key...
 ```
